@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif; 
+    font-size: 14px;
+}
+h1 {
+    font-size: 24px;
+    font-family: 'YourCustomFont', sans-serif;
+}
+h2 {
+    font-size: 18px;
+    font-family: 'YourCustomFont', sans-serif;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    overflow: auto;
+}
+.code-example .keyword {
+    color: #0000ff;
+}
+.code-example .function {
+    color: #007700;
+}
+.code-example .string {
+    color: #dd0000;
+}
